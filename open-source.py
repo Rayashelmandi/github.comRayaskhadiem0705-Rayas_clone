@@ -132,15 +132,15 @@ except Exception as e:
 	exit(e)
 
 logo ="""  \033[1;92m        _____ _____ _____ _____  _   _ 
-  \033[1;92m       itx Rayas khadiem
-  \033[1;92m       Rayas helmandi
-  \033[1;92m        Rayas helmandi
-  \033[1;92m       khadiem helmandi
-  \033[1;92m          \033[1;93m0.6
+  \033[1;92m       /  ___|_   _|  ___/  __ \| | | |
+  \033[1;92m       \ `--.  | | | |__ | /  \/| |_| |
+  \033[1;92m        `--. \ | | |  __|| |    |  _  |
+  \033[1;92m       /\__/ / | | | |___| \__/\| | | |
+  \033[1;92m       \____/  \_/ \____/ \____/\_| |_/   \033[1;93m0.6
 \033[1;97m====================================================
-\033[1;97m[+] AUTHOR   : Rayas khadiem
-\033[1;97m[+] FACEBOOK : Itx Rayas khadiem
-\033[1;97m[+] TEAM     : Rayas hekmandi
+\033[1;97m[+] AUTHOR   : SHABIR BADAKSH
+\033[1;97m[+] FACEBOOK : RAYESS SHABIR
+\033[1;97m[+] TEAM     : AFGHAN TECH
 \033[1;97m[+] STATUS   : \033[1;95mOPEN-SOURCE
 \033[1;97m===================================================="""
 
@@ -175,7 +175,7 @@ def main_menu():
     if basir == '1':
         afg()
     if basir == '2':
-        os.system('xdg-open MRrayaso')
+        os.system('xdg-open https://t.me/Afghan_Tech_001')
         main_menu()
     if basir == '0':
         exit()
